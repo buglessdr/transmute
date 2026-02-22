@@ -66,7 +66,7 @@ transmute detect mystery-file.csv
 | Helvault | `helvault` | [App](https://apps.apple.com/app/helvault-mtg-card-scanner/id1466963201) | **Requires Scryfall IDs** |
 | ManaBox | `manabox` | [Guide](https://www.manabox.app/guide) | Popular mobile app |
 | Moxfield | `moxfield` | [Import/Export](https://www.moxfield.com/help/importing-and-exporting) | Popular deck builder |
-| MTG Archivist | `tcgarchivist` | — | **Import**: Reads TCG Archivist CSV exports; merges duplicates by **Scryfall ID + Finish**; forces **Near Mint** + **English** |
+| TCG Archivist | `tcgarchivist` | — | **Import**: Reads TCG Archivist CSV exports; merges duplicates by **Scryfall ID + Finish**; forces **Near Mint** + **English** |
 | MTGGoldfish | `mtggoldfish` | [Export Help](https://www.mtggoldfish.com/help/import_export) | Supports FOIL/REGULAR/FOIL_ETCHED |
 | MTG Manager | `mtgmanager` | — | **Numeric codes** for condition/language |
 | MTGO | `mtgo` | [Support](https://www.mtgo.com/help) | Magic Online format |
