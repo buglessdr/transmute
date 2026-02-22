@@ -66,12 +66,14 @@ transmute detect mystery-file.csv
 | Helvault | `helvault` | [App](https://apps.apple.com/app/helvault-mtg-card-scanner/id1466963201) | **Requires Scryfall IDs** |
 | ManaBox | `manabox` | [Guide](https://www.manabox.app/guide) | Popular mobile app |
 | Moxfield | `moxfield` | [Import/Export](https://www.moxfield.com/help/importing-and-exporting) | Popular deck builder |
+| MTG Archivist | `tcgarchivist` | — | **Import**: Reads TCG Archivist CSV exports; merges duplicates by **Scryfall ID + Finish**; forces **Near Mint** + **English** |
 | MTGGoldfish | `mtggoldfish` | [Export Help](https://www.mtggoldfish.com/help/import_export) | Supports FOIL/REGULAR/FOIL_ETCHED |
 | MTG Manager | `mtgmanager` | — | **Numeric codes** for condition/language |
 | MTGO | `mtgo` | [Support](https://www.mtgo.com/help) | Magic Online format |
 | MTGStocks | `mtgstocks` | [Site](https://www.mtgstocks.com/) | Price tracking site |
 | MTG Studio | `mtgstudio` | [Site](https://www.mtgstudio.com/) | Simple Yes/No foil format |
 | TCGPlayer | `tcgplayer` | [Bulk Entry](https://help.tcgplayer.com/hc/en-us/articles/360056778454) | Includes Product ID/SKU |
+| TCGPlayer (iOS Import) | `tcgplayer_ios` | — | **Export**: Minimal CSV for TCGPlayer iOS paste import: `Quantity,Name,Set Code,Printing,Condition,Language` |
 
 ## Data Considerations
 
