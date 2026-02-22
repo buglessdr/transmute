@@ -57,6 +57,8 @@ def _register_handlers() -> None:
     from transmute.formats.mtgstocks import MTGStocksHandler
     from transmute.formats.mtgstudio import MTGStudioHandler
     from transmute.formats.tcgplayer import TCGPlayerHandler
+    from transmute.formats.tcgarchivist import TCGArchivistHandler
+    from transmute.formats.tcgplayer_ios import TCGPlayerIOSHandler
 
     FormatRegistry.register(ArchidektHandler())
     FormatRegistry.register(CardKingdomHandler())
@@ -74,6 +76,8 @@ def _register_handlers() -> None:
     FormatRegistry.register(MTGStocksHandler())
     FormatRegistry.register(MTGStudioHandler())
     FormatRegistry.register(TCGPlayerHandler())
+    FormatRegistry.register(TCGArchivistHandler())
+    FormatRegistry.register(TCGPlayerIOSHandler())
 
 
 # Register handlers on module load
